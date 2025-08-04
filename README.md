@@ -3,8 +3,8 @@
 
 ### ✅ Abgeschlossener Lernpfad:
 - [x] **Introduction to Cyber Security**  
-  ![Badge]
-  (frame src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4617096")
+  [![Badge](https://tryhackme-badges.s3.amazonaws.com/Nols984.png)](https://tryhackme.com/p/Nols984)
+
 
 ### 🧩 Wichtige Räume:
 - Introduction to Cybersecurity - Unterschied Blue und Red Team
