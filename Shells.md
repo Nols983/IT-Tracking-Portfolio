@@ -1,7 +1,7 @@
 # Shell/Reverse Shell Übersicht:
 
 Netcat:\
-Beispiel Befehl:"Nc -lvnp 443"\
+Beispiel Befehl:"Nc -lvnp 443" \
 
 l = netcat hört bzw wartet auf verbindung\
 v = verbose mode wird benutzt um in Kommandozeile live mitzuverfolgen was passiert\
