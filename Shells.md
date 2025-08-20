@@ -8,7 +8,7 @@ v = verbose mode wird benutzt um in Kommandozeile live mitzuverfolgen was passie
 n = verhindert das DNS anstelle einer IP Adresse verwendet wird\
 p= zu verwendender Port
 
-Normale Ports die für Angriffe genutzt werden können.\
+Normale Ports die für Angriffe genutzt werden können:\
 53 - DNS\
 80 - HTTP\
 8080 - Alternativer HTTP Port (Proxy oder falls 80 andersweitig verwendet wird)\
