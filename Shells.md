@@ -1,7 +1,12 @@
 # Shell/Reverse Shell Übersicht:
 
 Netcat:
-Nc -lvnp 443 (l = netcat hört bzw wartet auf verbindung, v = verbose mode, n = verhindert das DNS anstelle einer IP Adresse verwendet wird, p= zu verwendender Port)
+Beispiel Befehl:"Nc -lvnp 443"
+
+l = netcat hört bzw wartet auf verbindung
+v = verbose mode (wird benutzt um in Kommando
+n = verhindert das DNS anstelle einer IP Adresse verwendet wird
+p= zu verwendender Port)
 
 Normale Ports die für Angriffe genutzt werden können.
 53 - DNS
