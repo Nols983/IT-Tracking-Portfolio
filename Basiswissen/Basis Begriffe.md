@@ -1,13 +1,15 @@
 # Basis Begriffe
 
-| **Begriff**                                      | **Funktion / Beschreibung**                                                                                                                              |
-| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ARP** (Address Resolution Protocol)            | Löst im lokalen Netzwerk eine IP-Adresse in die zugehörige MAC-Adresse auf – essenziell für die Kommunikation zwischen Geräten im LAN.                   |
-| **RARP** (Reverse ARP)                           | Umgekehrtes ARP: Gerät kennt seine MAC-Adresse und fragt die dazugehörige IP-Adresse an. Wird heute meist durch DHCP ersetzt.                            |
-| **ICMP** (Internet Control Message Protocol)     | Unterstützt die Netzwerk-Diagnose und Fehlermeldungen (z. B. bei `ping` oder `traceroute`).                                                              |
-| **NTP** (Network Time Protocol)                  | Synchronisiert Uhren zwischen Computern im Netzwerk mit hoher Genauigkeit – wichtig für Zeitstempel und Sicherheit.                                      |
-| **IGMP** (Internet Group Management Protocol)    | Verwaltert Multicast-Gruppenmitgliedschaften (z. B. bei IPTV oder Streaming), hauptsächlich in IPv4-Netzen.                                              |
-| **LDAP** (Lightweight Directory Access Protocol) | Ermöglicht den Zugriff und die Verwaltung von Netzwerkverzeichnissen, beispielsweise für Benutzer- oder Gruppendaten.                                    |
-| **SCP** (Secure Copy Protocol)                   | Überträgt Dateien sicher über Netzwerkverbindungen, indem SCP auf SSH aufsetzt.                                                                          |
-| **NAT** (Network Address Translation)            | Erlaubt Geräten in einem privaten Netzwerk die gemeinsame Nutzung einer öffentlichen IP-Adresse, wobei Zuordnung über Ports erfolgt.                     |
-| **IPsec** (Internet Protocol Security)           | Bietet Authentifizierung und Verschlüsselung auf IP-Ebene und ist zentral für sichere VPN-Verbindungen.                                                  |
+| **Begriff**                                    | **Funktion / Beschreibung**                                                                              |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| **ARP** (Address Resolution Protocol)            | Löst IP-Adressen in MAC-Adressen auf – essenziell für Kommunikation im LAN.                              |
+| **RARP** (Reverse ARP)                           | Gerät kennt MAC-Adresse, fragt damit seine IP-Adresse an – heute weitgehend durch DHCP ersetzt.          |
+| **ICMP** (Internet Control Message Protocol)     | Unterstützt Fehlermeldungen und Netzwerkdiagnose (z. B. Ping, Traceroute).                               |
+| **NTP** (Network Time Protocol)                  | Synchronisiert Systemzeitnetzweit – wichtig für Protokolle, Sicherheit, Logs.                            |
+| **IGMP** (Internet Group Management Protocol)    | Verwaltert Multicast-Gruppen, z. B. für IPTV oder Streaming im LAN.                                      |
+| **LDAP** (Lightweight Directory Access Protocol) | Zugriff auf Verzeichnisse über das Netzwerk – beispielsweise für Benutzerverwaltung.                     |
+| **SCP** (Secure Copy Protocol)                   | Sichere Dateiübertragung über SSH.                                                                       |
+| **NAT** (Network Address Translation)            | Erlaubt mehreren Geräten die Nutzung einer einzigen öffentlichen IP-Adresse.                             |
+| **IPsec** (Internet Protocol Security)           | Sicherung von IP-Kommunikation durch Verschlüsselung und Authentifizierung, z. B. in VPNs.               |
+| **TCP** (Transmission Control Protocol)          | Zuverlässiges, zustandsorientiertes Transportprotokoll mit Port-Nutzung, Fluss- und Fehlerkontrolle.     |
+| **UDP** (User Datagram Protocol)                 | Leichtgewichtiges, verbindungsloses Transportprotokoll mit Port-Nutzung – für niedrige Latenz optimiert. |
