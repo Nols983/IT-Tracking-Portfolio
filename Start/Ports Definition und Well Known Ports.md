@@ -1,5 +1,5 @@
 # Ports:
-Ein Port ist ein virtueller Endpunkt im Betriebssystem, über den Netzwerkverbindungen an bestimmte Anwendungen oder Dienste weitergeleitet werden. Ports ermöglichen es, dass mehrere Dienste (z. B. Web, E-Mail) gleichzeitig über dieselbe IP-Adresse kommunizieren können
+Ein Port ist ein virtueller Endpunkt im Betriebssystem, über den Netzwerkverbindungen an bestimmte Anwendungen oder Dienste weitergeleitet werden. Ports ermöglichen es, dass mehrere Dienste (z. B. Web, E-Mail) gleichzeitig über dieselbe IP-Adresse kommunizieren können.\
 Portnummern reichen von 0-65535.
 
 ## Well-Known Ports:
