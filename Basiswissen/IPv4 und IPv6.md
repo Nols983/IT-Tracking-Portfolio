@@ -2,7 +2,8 @@
 
 Definition: IPv4 steht für Internet Protocol Version 4. Es ist eine der zentralen Technologien des Internets und bildet die logische Adressierungsebene (Layer 3), die Datenpakete von einem Gerät auf ein anderes über verschiedene Netzwerke hinweg transportiert.
 
-Es ist eine 32-Bit Adresse, welche in 4 Oktetten in Dezimalform dargestellt wird.\
+Es ist eine 32-Bit Adresse, welche in 4 Oktetten in Dezimalform dargestellt wird.
+
 Beispiel: 192.168.128.1 (Dezimalschreibweise) == 11000000.10101000.10000000.00000001 (Binärschreibweise)
 
 ## Weiterführende Begriffe:
@@ -17,6 +18,7 @@ Beispiel:\
 192.168.178.0 /24 -> Netzwerkadresse\
 255.255.255.0 -> Subnetzmaske\
 192.168.178.254 -> Broadcast Adresse
+192.168.178.1 - 192.168.178.253 -> gültige Hosts im Netzwerk
 
 ## Binärsystem
 
