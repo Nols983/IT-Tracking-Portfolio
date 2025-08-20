@@ -1,11 +1,10 @@
-# tryhackme-blue-team-portfolio
+# Kurze Übersicht und Link zu Tryhackme Profil :)
 ## 🧠 TryHackMe Lernfortschritt
 
 ### ✅ Abgeschlossener Lernpfad:
 - [x] **Introduction to Cyber Security**  
   [![Badge](https://tryhackme-badges.s3.amazonaws.com/Nols984.png)](https://tryhackme.com/p/Nols984)
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4617096" style='border:none;'></iframe>
 
 
 ### 🧩 Tryhackme Übersicht:
