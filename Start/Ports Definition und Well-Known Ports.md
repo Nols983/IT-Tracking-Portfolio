@@ -4,6 +4,6 @@ Portnummern reichen von 0-65535.
 
 ## Well-Known Ports:
 
-Definition: Well-Known Ports sind von 0-1023. Es handelt sich hierbei um standardisierte Netzwerkdienste, welche von Betriebsystem als Systemdienste verwendet werden können.\
+Definition: Well-Known Ports sind von 0-1023. Es handelt sich hierbei um standardisierte Netzwerkdienste, welche von Betriebsystem als Systemdienste verwendet werden können.
 
 Der Zweck dahinter ist eine einfache und einheitliche Kommunikation zwischen Servern und Clients möglich zu machen.
