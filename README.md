@@ -1,8 +1,8 @@
 # Kurze Übersicht und Link zu Tryhackme Profil :)
 ## 🧠 TryHackMe Lernfortschritt
 
-### ✅ Abgeschlossener Lernpfad:
-- [x] **Introduction to Cyber Security**  
+### ✅ Profilbanner:
+
   [![Badge](https://tryhackme-badges.s3.amazonaws.com/Nols984.png)](https://tryhackme.com/p/Nols984)
 
 
