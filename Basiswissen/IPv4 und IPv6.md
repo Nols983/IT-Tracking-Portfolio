@@ -13,7 +13,7 @@ Beispiel: 192.168.128.1 (Dezimalschreibweise) == 11000000.10101000.10000000.0000
 | **Netzadresse**       | Erster Wert im Subnetz – identifiziert das Teilnetz.                                                |
 | **Broadcast-Adresse** | Letzte Adresse im Subnetz – erreicht alle Geräte im Subnetz.                                        |
 
-Beispiel:
+Beispiel:\
 192.168.178.0 /24 -> Netzwerkadresse\
 255.255.255.0 -> Subnetzmaske\
 192.168.178.254 -> Broadcast Adresse
