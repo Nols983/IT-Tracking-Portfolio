@@ -25,10 +25,3 @@ Der Zweck dahinter ist eine einfache und einheitliche Kommunikation zwischen Ser
 | 161       | SNMP               | Netzwerkverwaltung (Agenten)                                                                                        |
 | 194       | IRC                | Internet Relay Chat                                                                                                 |
 | 443       | HTTPS              | Verschlüsselte Webseitenübertragung (HTTP over TLS/SSL)                                                             |
-| 546 / 547 | DHCPv6             | IPv6-Version der IP-Zuweisung ([Super User][1], [ExamCollection][2], [StationX][3], [Wikipedia][4], [Wikipedia][5]) |
-
-[1]: https://superuser.com/questions/956226/what-are-the-differences-between-the-3-port-types?utm_source=chatgpt.com "What are the differences between the 3 port types?"
-[2]: https://www.examcollection.com/certification-training/network-plus-overview-of-common-tcp-and-udp-default-ports.html?utm_source=chatgpt.com "Overview of common TCP and UDP Default Ports"
-[3]: https://www.stationx.net/common-ports-cheat-sheet/?utm_source=chatgpt.com "Common Ports Cheat Sheet: The Ultimate List"
-[4]: https://de.wikipedia.org/wiki/Liste_der_Portnummern?utm_source=chatgpt.com "Liste der Portnummern"
-[5]: https://en.wikipedia.org/wiki/Port_%28computer_networking%29?utm_source=chatgpt.com "Port (computer networking)"
