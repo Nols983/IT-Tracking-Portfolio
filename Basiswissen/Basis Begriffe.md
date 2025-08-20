@@ -1,6 +1,6 @@
-# Basis Begriffe
+# Basis Protokolle
 
-| **Begriff**                                    | **Funktion / Beschreibung**                                                                              |
+| **Protokolle**                                    | **Funktion / Beschreibung**                                                                              |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
 | **ARP** (Address Resolution Protocol)            | Löst IP-Adressen in MAC-Adressen auf – essenziell für Kommunikation im LAN.                              |
 | **RARP** (Reverse ARP)                           | Gerät kennt MAC-Adresse, fragt damit seine IP-Adresse an – heute weitgehend durch DHCP ersetzt.          |
