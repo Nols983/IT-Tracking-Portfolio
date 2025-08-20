@@ -17,7 +17,7 @@ Beispiel: 192.168.128.1 (Dezimalschreibweise) == 11000000.10101000.10000000.0000
 Beispiel:\
 192.168.178.0 /24 -> Netzwerkadresse\
 255.255.255.0 -> Subnetzmaske\
-192.168.178.254 -> Broadcast Adresse
+192.168.178.254 -> Broadcast Adresse\
 192.168.178.1 - 192.168.178.253 -> gültige Hosts im Netzwerk
 
 ## Binärsystem
