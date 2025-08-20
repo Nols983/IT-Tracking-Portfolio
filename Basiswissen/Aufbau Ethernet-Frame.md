@@ -9,3 +9,10 @@
 | **Trailer**         | FCS (4 B)                               | Frame Check Sequence – CRC zur Erkennung von Übertragungsfehlern                                                                                          |
 
 
+## Erklärung Padding:
+
+Padding (Füllbytes) sorgt dafür, dass ein Ethernet-Frame mindestens die definierte Mindestlänge (64 Byte Gesamt, inkl. Header und Trailer) erreicht—wichtig für Kollisionserkennung und korrekte Übertragung durch die Hardware.
+
+Besteht die Payload aus weniger als 46 Byte (ohne VLAN), füllt die Netzwerkkarte mit Nullen (0x00) auf.
+
+Dadurch wird sichergestellt, dass Frame-Länge und Timing-Anforderungen eingehalten werden.
