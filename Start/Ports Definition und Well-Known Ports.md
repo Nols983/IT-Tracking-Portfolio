@@ -8,7 +8,7 @@ Definition: Well-Known Ports sind von 0-1023. Es handelt sich hierbei um standar
 
 Der Zweck dahinter ist eine einfache und einheitliche Kommunikation zwischen Servern und Clients möglich zu machen.
 
-### Standardisierte Ports:
+## Standardisierte Ports:
 | Port      | Protokoll / Dienst | Kurzbeschreibung                                                                                                    |
 | --------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | 20 / 21   | FTP                | Datenübertragung (20) & Steuerung (21) für Dateitransfer                                                            |
