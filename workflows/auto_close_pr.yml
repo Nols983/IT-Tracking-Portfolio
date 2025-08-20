@@ -1,0 +1,14 @@
+name: Auto Close PRs
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-close pull request
+        uses: superbrothers/close-pull-request@v3
+        with:
+          comment: "Danke für den PR! Wir akzeptieren aktuell keine Pull Requests — aber du kannst gerne via Issue Feedback geben."
