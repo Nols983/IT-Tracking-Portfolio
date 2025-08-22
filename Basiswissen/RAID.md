@@ -3,16 +3,16 @@
 Der Begriff RAID steht für Redundant Array of Independent Disks. Dabei handelt es sich um eine Technik zur virtuellen Zusammenfassung mehrerer physischer Speichermedien (wie HDDs oder SSDs) zu einer logischen Einheit, die eine höhere Ausfallsicherheit und/oder eine bessere Leistung gegenüber einzelnen Laufwerken ermöglicht 
 
 
-Wofür wird RAID verwendet?
+## Wofür wird RAID verwendet?
 
-Ausfallsicherheit (Redundanz): Einige RAID-Formen speichern Daten mehrfach (z. B. Spiegelung), sodass ein Ausfall einzelner Laufwerke keinen Datenverlust bedeutet 
+- Ausfallsicherheit (Redundanz): Einige RAID-Formen speichern Daten mehrfach (z. B. Spiegelung), sodass ein Ausfall einzelner Laufwerke keinen Datenverlust bedeutet 
 Wikipedia
 .
 
-Performance-Steigerung: Durch Verteilung der Daten auf mehrere Laufwerke können Zugriffe parallelisiert werden – nützlich etwa bei sequenziellen Transfers 
+- Performance-Steigerung: Durch Verteilung der Daten auf mehrere Laufwerke können Zugriffe parallelisiert werden – nützlich etwa bei sequenziellen Transfers 
 
 
-Größere logische Volumina: Mehrere Platten ergeben zusammen ein großes Speicherfach, als wären sie eine einzige Einheit 
+- Größere logische Volumina: Mehrere Platten ergeben zusammen ein großes Speicherfach, als wären sie eine einzige Einheit 
 
 ## RAID Level
 
