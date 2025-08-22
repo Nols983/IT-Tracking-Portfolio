@@ -7,6 +7,24 @@ Gründe für Subnetting:
 - Sicherheitsvorteile: Isolierung von Netzen erlaubt gezielte Zugriffskontrolle.
 - Effizientere IP-Nutzung: Subnetting verhindert Verschwendung in großen Adressbereichen.
 
+## Tipps am Rande:
+
+-> Es ist sinnvoll die 2er Potenzen bis 2^10 auswendig zu lernen
+-> Für Übungen mit dem Binärsystem nutzt folgenden Link: https://learningnetwork.cisco.com/s/binary-game
+
+## Binärsystem
+
+Die Zahlen werden von links nach rechts kleiner:
+
+10000000 = 128\
+01000000 = 64\
+00100000 = 32\
+00010000 = 16\
+00001000 = 8\
+00000100 = 4\
+00000010 = 2\
+00000001 = 1
+
 ## 1.) Beispiel (2 Subnetze):
 
 **Aktuelles Netzwerk:**
@@ -51,22 +69,68 @@ Gründe für Subnetting:
 | Netz 3  | 192.168.1.128 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191 | 62           |
 | Netz 4  | 192.168.1.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255 | 62           |
 
-## 3.) Beispiel (4 Subnetze und andere Präfix beim Ausgangsnetzwerk):
+## 3.) Beispiel (192.168.10.0/24 in 6 Subnetze aufteilen):
 
-**Ausgangsnetz:**
+**Ausgangslage:**
 
-192.168.0.0 /22
+Netz: 192.168.10.0/24
 
-**Schritt 1: Subnetzmaske anpassen**
+Maske: 255.255.255.0 = 11111111.11111111.11111111.00000000
 
-- Aufteilung in 4 Subnetze → neuer Präfix /24 → neue Subnetzmaske 255.255.255.0
-- Jedes Subnetz hat 255 Adressen, davon 253 nutzbare Hosts. (2 entfallen wegen Netzwerk- und Broadcastadresse)
+Hosts gesamt: 254
 
-**Schritt 2: Neue Netze berechnen**
+**Wie viele Bits leihen?**
 
-| Subnetz | Präfix | Netzadresse | Hostbereich                 | Broadcast     | Nutzbare Hosts |
-| ------- | ------ | ----------- | --------------------------- | ------------- | -------------- |
-| Netz 1  | /24    | 192.168.0.0 | 192.168.0.1 – 192.168.0.254 | 192.168.0.255 | 253            |
-| Netz 2  | /24    | 192.168.1.0 | 192.168.1.1 – 192.168.1.254 | 192.168.1.255 | 253            |
-| Netz 3  | /24    | 192.168.2.0 | 192.168.2.1 – 192.168.2.254 | 192.168.2.255 | 253            |
-| Netz 4  | /24    | 192.168.3.0 | 192.168.3.1 – 192.168.3.254 | 192.168.3.255 | 253            |
+2^b >= Subnetze
+- 2^2 = 4 (zu wenig)
+- 2^3 = 8 (passt)
+
+--> also 3 Bits leihen -> Präfixlänge /27
+
+**Neue Maske**
+
+/27 = 255.255.255.224
+
+Binär: 11111111.11111111.11111111.11100000
+
+**Schrittweite (Blockgröße)**
+
+Im letzten Oktett:
+224 -> 256 - 224 = 32
+--> Jedes Subnetz "sprint" in 32er-Schritten.
+
+**Subnetze berechnen**
+
+Start bei 0, dann +32, +32,usw
+
+| Subnetz | Netzadresse    | Hostbereich           | Broadcast      | Hostanzahl |
+| ------- | -------------- | --------------------- | -------------- | ---------- |
+| 1       | 192.168.10.0   | 192.168.10.1 – .30    | 192.168.10.31  | 30         |
+| 2       | 192.168.10.32  | 192.168.10.33 – .62   | 192.168.10.63  | 30         |
+| 3       | 192.168.10.64  | 192.168.10.65 – .94   | 192.168.10.95  | 30         |
+| 4       | 192.168.10.96  | 192.168.10.97 – .126  | 192.168.10.127 | 30         |
+| 5       | 192.168.10.128 | 192.168.10.129 – .158 | 192.168.10.159 | 30         |
+| 6       | 192.168.10.160 | 192.168.10.161 – .190 | 192.168.10.191 | 30         |
+| (7)     | 192.168.10.192 | 192.168.10.193 – .222 | 192.168.10.223 | 30         |
+| (8)     | 192.168.10.224 | 192.168.10.225 – .254 | 192.168.10.255 | 30         |
+
+
+**Binär-Check**
+
+Netz 1 Start: 00000000 (0)
+
+Netz 2 Start: 00100000 (32)
+
+Netz 3 Start: 01000000 (64)
+
+Netz 4 Start: 01100000 (96)
+
+Netz 5 Start: 10000000 (128)
+
+Netz 6 Start: 10100000 (160)
+
+Netz 7 Start: 11000000 (192)
+
+Netz 8 Start: 11100000 (224)
+
+--> Passt alles :)
