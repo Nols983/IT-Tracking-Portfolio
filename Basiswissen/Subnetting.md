@@ -9,7 +9,7 @@ Gründe für Subnetting:
 
 ## Beispiel für ein IPv4 Subnetz:
 
-Aktuelles Netzwerk:
+**Aktuelles Netzwerk:**
 192.168.1.0 /24
 
 - Das /24 bedeutet: Subnetzmaske 255.255.255.0
@@ -17,26 +17,15 @@ Aktuelles Netzwerk:
 
 
 
-Schritt 1: Subnetzmaske anpassen
+**Schritt 1: Subnetzmaske anpassen**
 
-Bisher: /24 → 255.255.255.0
+- Bisher: /24 → 255.255.255.0
 
-Teilt man in 2 Netze, nimmt man /25 → 255.255.255.128
+- Teilt man in 2 Netze, nimmt man /25 → 255.255.255.128
 
-Schritt 2: Neue Netze berechnen
+**Schritt 2: Neue Netze berechnen**
 
-Netz 1: 192.168.1.0 – 192.168.1.127
-
-Netzadresse: 192.168.1.0
-
-Broadcast: 192.168.1.127
-
-Host-Bereich: 192.168.1.1 – 192.168.1.126 (126 Hosts)
-
-Netz 2: 192.168.1.128 – 192.168.1.255
-
-Netzadresse: 192.168.1.128
-
-Broadcast: 192.168.1.255
-
-Host-Bereich: 192.168.1.129 – 192.168.1.254 (126 Hosts)
+| Subnetz | Netzadresse   | Hostbereich                   | Broadcast     | Anzahl Hosts |
+| ------- | ------------- | ----------------------------- | ------------- | ------------ |
+| Netz 1  | 192.168.1.0   | 192.168.1.1 – 192.168.1.126   | 192.168.1.127 | 126          |
+| Netz 2  | 192.168.1.128 | 192.168.1.129 – 192.168.1.254 | 192.168.1.255 | 126          |
