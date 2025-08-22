@@ -10,7 +10,10 @@ Gründe für Subnetting:
 ## Tipps am Rande:
 
 -> Es ist sinnvoll die 2er Potenzen bis 2^10 auswendig zu lernen
+
 -> Für Übungen mit dem Binärsystem nutzt folgenden Link: https://learningnetwork.cisco.com/s/binary-game
+
+-> Für Übungen mit Subnetting (Da http, nicht über öffentliches Netzwerk laden): http://ip.web4train.de/
 
 ## Binärsystem
 
