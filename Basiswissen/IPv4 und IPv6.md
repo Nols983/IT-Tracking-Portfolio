@@ -20,18 +20,8 @@ Beispiel:\
 192.168.178.254 -> Broadcast Adresse\
 192.168.178.1 - 192.168.178.253 -> gültige Hosts im Netzwerk
 
-## Binärsystem
-
-Die Zahlen werden von links nach rechts kleiner:
-
-10000000 = 128\
-01000000 = 64\
-00100000 = 32\
-00010000 = 16\
-00001000 = 8\
-00000100 = 4\
-00000010 = 2\
-00000001 = 1
+**Wichtig:**
+- IPv4 wird in "Subnetting.md" weiter behandelt
 
 # IPv6
 
