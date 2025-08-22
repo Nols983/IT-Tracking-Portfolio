@@ -1,5 +1,7 @@
 # Backup Definition
 
+Ein Backup ist eine Sicherheitskopie von Daten, die an einem anderen Ort gespeichert wird, um diese bei einem Datenverlust (z. B. durch versehentliches Löschen, technische Schäden oder Schadsoftware) wiederherstellen zu können.
+
 ## Backup Arten
 
 | **Backup-Typ**                                 | **Definition**                                                                                                                                            | **Vorteile**                                                                                                                                   | **Nachteile**                                                                                                                                                                                  | **Typische Nutzung**                                                               |
