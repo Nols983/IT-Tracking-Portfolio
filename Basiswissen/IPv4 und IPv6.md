@@ -34,3 +34,38 @@ Die Zahlen werden von links nach rechts kleiner:
 00000001 = 1
 
 # IPv6
+
+## Grundlagen
+
+- IPv6 = Internet Protocol Version 6 (Nachfolger von IPv4)
+
+- Adresslänge: 128 Bit → ca. 3,4 × 10³⁸ Adressen (praktisch unerschöpflich)
+
+- Schreibweise: Hexadezimal, in 8 Blöcken à 16 Bit, getrennt durch :
+- Beispiel: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+## Adresstypen
+
+- Unicast → eine eindeutige Adresse (ein Gerät)
+
+- Multicast → eine Gruppe von Geräten
+
+- Anycast → mehrere Geräte, aber Antwort vom nächstgelegenen
+
+## Wichtige Bereiche
+
+- Global Unicast: 2000::/3 → weltweit eindeutige Adressen
+
+- Link-Local: fe80::/10 → automatisch vergeben, nur im lokalen Netz
+
+- Unique Local (ULA): fc00::/7 → ähnlich wie private IPv4-Adressen (RFC1918)
+
+## Weitere Merkmale
+
+- Keine NAT mehr notwendig (jeder Host kann eine eindeutige Adresse haben)
+
+- Integrierte IPsec-Unterstützung für Sicherheit
+
+- Autokonfiguration (SLAAC) + DHCPv6 möglich
+
+- Präfix-Länge statt Subnetzmaske → z. B. /64
