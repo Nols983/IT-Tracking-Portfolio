@@ -6,7 +6,9 @@ Herzlich Willkommen in der Übersicht zu meinem Homelab.
 
 Hier möchte ich die Möglichkeit bieten einen einfachen Einstieg in die Thematik Homelab zu finden.
 
-Für meine Container nutze ich Docker.
+Lest euch gerne vorher noch die "Docker Übersicht" durch und falls ihr noch nicht so starke Erfahrung in Linux Umgebungen gesammelt habt, dann schaut gerne hier rein "Was ist Linux?"
+
+Für meine Container nutze ich Docker auf Basis eines Ubuntu Servers 24.04.
 
 Meine aktuellen Container:
 
