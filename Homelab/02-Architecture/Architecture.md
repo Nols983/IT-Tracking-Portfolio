@@ -4,17 +4,19 @@
 
 ![Homelab Netzwerk](../images/network-overview.png)
 
+> 📌 Hinweis: Darstellung vereinfacht und anonymisiert
+
 ---
 
 ## 🖥️ Systeme im Überblick
 
-Das Homelab besteht aus mehreren Geräten mit klaren Aufgaben:
+Das Homelab besteht aus mehreren Geräten mit klar definierten Aufgaben:
 
 ### 🍓 Raspberry Pi 5
 
-* DNS (Pi-hole)
+* DNS-Server (Pi-hole)
 * Monitoring (Uptime Kuma)
-* zentrale Infrastruktur-Services
+* zentrale Infrastruktur-Dienste
 
 ---
 
@@ -28,7 +30,7 @@ Das Homelab besteht aus mehreren Geräten mit klaren Aufgaben:
 
 ### 🎮 Fujitsu Mini PC
 
-* Gameserver (Minecraft, Factorio, Terraria)
+* dedizierter Gameserver
 * getrennt vom restlichen System für bessere Performance
 
 ---
@@ -36,7 +38,7 @@ Das Homelab besteht aus mehreren Geräten mit klaren Aufgaben:
 ### 💾 NAS
 
 * Speicherung von Medien (Plex)
-* Backups und Datenablage
+* Backups und zentrale Datenablage
 
 ---
 
@@ -44,17 +46,7 @@ Das Homelab besteht aus mehreren Geräten mit klaren Aufgaben:
 
 * zentrale Netzwerkverbindung
 * Verbindung zum Internet
-* Weiterleitung von Traffic ins Homelab
-
----
-
-## 🔁 Zusammenspiel der Systeme
-
-* Alle Geräte befinden sich im gleichen lokalen Netzwerk
-* DNS-Anfragen laufen über den Raspberry Pi (Pi-hole)
-* Externer Traffic wird über den Router an den Shuttle weitergeleitet
-* Traefik übernimmt das Routing zu den jeweiligen Services
-* Der Fujitsu Server wird für Gameserver genutzt und separat angebunden
+* Basis der lokalen Infrastruktur
 
 ---
 
@@ -63,5 +55,4 @@ Das Homelab besteht aus mehreren Geräten mit klaren Aufgaben:
 * klare Trennung der Aufgaben
 * einfache Erweiterbarkeit
 * zentrale Verwaltung über Docker
-* möglichst realitätsnahe Infrastruktur
-
+* übersichtliche Struktur der Systeme
