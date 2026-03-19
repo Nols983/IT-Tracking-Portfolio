@@ -2,30 +2,125 @@
 
 ## Vorwort
 
-Herzlich Willkommen in der Übersicht zu meinem Homelab.
+Herzlich Willkommen zu meinem Homelab.
 
-Hier möchte ich die Möglichkeit bieten einen einfachen Einstieg in die Thematik Homelab zu finden.
+Dieses Projekt dient dazu, eine eigene IT-Infrastruktur im kleinen Maßstab aufzubauen, zu verstehen und kontinuierlich zu verbessern. Ziel ist es, reale Szenarien aus der Praxis (z. B. Serverbetrieb, Monitoring, Netzwerkstruktur) nachzubilden.
 
-Lest euch gerne vorher noch die "Docker Übersicht" durch und falls ihr noch nicht so starke Erfahrung in Linux Umgebungen gesammelt habt, dann schaut gerne hier rein "Was ist Linux?"
+Gleichzeitig soll diese Dokumentation auch Einsteigern helfen, die ersten Schritte in Richtung Homelab und Self-Hosting zu gehen.
 
-Für meine Container nutze ich Docker auf Basis eines Ubuntu Servers 24.04.
+---
 
-Meine aktuellen Container:
+## Ziel dieses Homelabs
 
-- Portainer mit Agents auf verschiedenen Geräten
-- Pi-Hole als DNS Blocker
-- Dashy als generelle Übersicht für meine Projekte bzw als eine Art "Short-cut Manager"
-- Netdata Parent in Verbindung mit Childs um die Leistung der Geräte zu überprüfen
-- Uptime Kuma in Verbindung mit ntfy, als Überprüfung der Erreichbarkeit meiner Dienste, sowie die Benachrichtigung falls etwas ausfallen sollte
-- Termix als SSH/SFTP Zugriffspunkt
-- Traefik als Reverse Proxy
-- Plex Media als Medienserver für Filme und Serien
-- UpSnap als Control Homepage für WoL und Shutdown
-- Teamspeak3 Server in Verbindung mit 2 Bots (AFK und Memewall Bot)
-- versch. Gameserver wie Minecraft, Factorio und Terraria
-- Watchtower für regelmäßige Updates der Container (Verwendung von Labels um zu verhindern, dass wichtige Prozesse gekilled werden)
+* Aufbau einer stabilen, containerbasierten Infrastruktur
+* Verständnis von Netzwerken, DNS und Reverse Proxys
+* Monitoring und Absicherung von Diensten
+* Bereitstellung eigener Services (z. B. Gameserver, Medienserver)
 
-Zukünftig:
+---
 
-- Einrichtung einer Backupstruktur
-- Möglichkeit remote über Gameserver Emulatoren zu spielen
+## Warum Ubuntu Server + Docker?
+
+### Ubuntu Server
+
+Ich nutze Ubuntu Server 24.04, da:
+
+* weit verbreitet in der Praxis
+* stabil und zuverlässig
+* große Community + viele Anleitungen
+* geringer Ressourcenverbrauch (kein GUI)
+
+--> Perfekt für Server und Homelab-Umgebungen
+
+---
+
+### Docker
+
+Docker ermöglicht es, Anwendungen in Containern laufen zu lassen.
+
+Vorteile:
+
+* einfache Installation von Services
+* saubere Trennung der Anwendungen
+* schnelle Updates und Deployments
+* ideal für Multi-Service-Umgebungen
+
+--> Dadurch kann ich viele Dienste parallel betreiben, ohne das System zu „zumüllen“.
+
+---
+
+## Meine aktuellen Services
+
+Hier eine Übersicht der aktuell eingesetzten Container:
+
+### Infrastruktur
+
+* **Portainer** → Verwaltung aller Docker-Container
+* **Traefik** → Reverse Proxy für Routing und Zugriff
+* **Pi-hole** → DNS-Server mit Werbeblocker
+
+---
+
+### Monitoring
+
+* **Uptime Kuma** → Überwachung der Erreichbarkeit
+* **ntfy** → Benachrichtigungen bei Ausfällen
+* **Netdata** → Performance Monitoring der Systeme
+
+---
+
+### Zugriff & Verwaltung
+
+* **Termix** → SSH/SFTP Zugriff im Browser
+* **UpSnap** → Wake-on-LAN & Gerätesteuerung
+
+---
+
+### Services
+
+* **Plex** → Medienserver für Filme & Serien
+* **Dashy** → Dashboard für schnellen Zugriff
+
+---
+
+### Gaming
+
+* **Minecraft Server**
+* **Factorio Server**
+* **Terraria Server**
+
+---
+
+### Kommunikation
+
+* **TeamSpeak 3 Server**
+
+  * AFK Bot
+  * Memewall Bot
+
+---
+
+### Automatisierung
+
+* **Watchtower** → automatische Container Updates
+
+---
+
+## Zukunftspläne
+
+* Aufbau einer Backup-Strategie
+* Verbesserung der Netzwerkstruktur
+* Erweiterung der Monitoring-Lösungen
+* Remote-Gaming über Server
+
+---
+
+## Für Einsteiger
+
+Falls du neu in diesem Bereich bist, empfehle ich:
+
+1. Grundlagen zu Linux verstehen
+2. Docker Basics lernen
+3. Erste eigene Container starten
+
+--> Danach kannst du Schritt für Schritt dein eigenes Homelab aufbauen.
