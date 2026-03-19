@@ -21,6 +21,7 @@ Meine aktuellen Container:
 - UpSnap als Control Homepage für WoL und Shutdown
 - Teamspeak3 Server in Verbindung mit 2 Bots (AFK und Memewall Bot)
 - versch. Gameserver wie Minecraft, Factorio und Terraria
+- Watchtower für regelmäßige Updates der Container (Verwendung von Labels um zu verhindern, dass wichtige Prozesse gekilled werden)
 
 Zukünftig:
 
