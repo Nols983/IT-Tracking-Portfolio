@@ -6,6 +6,8 @@ Herzlich willkommen in der Übersicht zu meinem Homelab.
 
 Hier möchte ich die Möglichkeit bieten einen einfachen Einstieg in die Thematik Homelab zu finden.
 
+Für meine Container nutze ich Docker.
+
 Meine aktuellen Container:
 
 - Portainer mit Agents auf verschiedenen Geräten
