@@ -2,7 +2,7 @@
 
 ## Vorwort
 
-Herzlich willkommen in der Übersicht zu meinem Homelab.
+Herzlich Willkommen in der Übersicht zu meinem Homelab.
 
 Hier möchte ich die Möglichkeit bieten einen einfachen Einstieg in die Thematik Homelab zu finden.
 
