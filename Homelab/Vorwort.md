@@ -1,6 +1,6 @@
-# Homelab Übersicht
+# 🏠 Homelab Übersicht
 
-## Vorwort
+## 📖 Vorwort
 
 Herzlich Willkommen zu meinem Homelab.
 
@@ -10,7 +10,7 @@ Gleichzeitig soll diese Dokumentation auch Einsteigern helfen, die ersten Schrit
 
 ---
 
-## Ziel dieses Homelabs
+## 🎯 Ziel dieses Homelabs
 
 * Aufbau einer stabilen, containerbasierten Infrastruktur
 * Verständnis von Netzwerken, DNS und Reverse Proxys
@@ -19,9 +19,9 @@ Gleichzeitig soll diese Dokumentation auch Einsteigern helfen, die ersten Schrit
 
 ---
 
-## Warum Ubuntu Server + Docker?
+## 🧠 Warum Ubuntu Server + Docker?
 
-### Ubuntu Server
+### 🐧 Ubuntu Server
 
 Ich nutze Ubuntu Server 24.04, da:
 
@@ -30,11 +30,11 @@ Ich nutze Ubuntu Server 24.04, da:
 * große Community + viele Anleitungen
 * geringer Ressourcenverbrauch (kein GUI)
 
---> Perfekt für Server und Homelab-Umgebungen
+👉 Perfekt für Server und Homelab-Umgebungen
 
 ---
 
-### Docker
+### 🐳 Docker
 
 Docker ermöglicht es, Anwendungen in Containern laufen zu lassen.
 
@@ -45,15 +45,15 @@ Vorteile:
 * schnelle Updates und Deployments
 * ideal für Multi-Service-Umgebungen
 
---> Dadurch kann ich viele Dienste parallel betreiben, ohne das System zu „zumüllen“.
+👉 Dadurch kann ich viele Dienste parallel betreiben, ohne das System zu „zumüllen“.
 
 ---
 
-## Meine aktuellen Services
+## ⚙️ Meine aktuellen Services
 
 Hier eine Übersicht der aktuell eingesetzten Container:
 
-### Infrastruktur
+### 🔧 Infrastruktur
 
 * **Portainer** → Verwaltung aller Docker-Container
 * **Traefik** → Reverse Proxy für Routing und Zugriff
@@ -61,7 +61,7 @@ Hier eine Übersicht der aktuell eingesetzten Container:
 
 ---
 
-### Monitoring
+### 📊 Monitoring
 
 * **Uptime Kuma** → Überwachung der Erreichbarkeit
 * **ntfy** → Benachrichtigungen bei Ausfällen
@@ -69,21 +69,21 @@ Hier eine Übersicht der aktuell eingesetzten Container:
 
 ---
 
-### Zugriff & Verwaltung
+### 🧑‍💻 Zugriff & Verwaltung
 
 * **Termix** → SSH/SFTP Zugriff im Browser
 * **UpSnap** → Wake-on-LAN & Gerätesteuerung
 
 ---
 
-### Services
+### 🎬 Services
 
 * **Plex** → Medienserver für Filme & Serien
 * **Dashy** → Dashboard für schnellen Zugriff
 
 ---
 
-### Gaming
+### 🎮 Gaming
 
 * **Minecraft Server**
 * **Factorio Server**
@@ -91,7 +91,7 @@ Hier eine Übersicht der aktuell eingesetzten Container:
 
 ---
 
-### Kommunikation
+### 🎤 Kommunikation
 
 * **TeamSpeak 3 Server**
 
@@ -100,13 +100,13 @@ Hier eine Übersicht der aktuell eingesetzten Container:
 
 ---
 
-### Automatisierung
+### 🔄 Automatisierung
 
 * **Watchtower** → automatische Container Updates
 
 ---
 
-## Zukunftspläne
+## 🚀 Zukunftspläne
 
 * Aufbau einer Backup-Strategie
 * Verbesserung der Netzwerkstruktur
@@ -115,7 +115,7 @@ Hier eine Übersicht der aktuell eingesetzten Container:
 
 ---
 
-## Für Einsteiger
+## 👨‍🏫 Für Einsteiger
 
 Falls du neu in diesem Bereich bist, empfehle ich:
 
@@ -123,4 +123,4 @@ Falls du neu in diesem Bereich bist, empfehle ich:
 2. Docker Basics lernen
 3. Erste eigene Container starten
 
---> Danach kannst du Schritt für Schritt dein eigenes Homelab aufbauen.
+👉 Danach kannst du Schritt für Schritt dein eigenes Homelab aufbauen.
