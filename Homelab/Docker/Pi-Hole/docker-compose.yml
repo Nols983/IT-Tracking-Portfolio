@@ -1,0 +1,16 @@
+services:
+  pihole:
+    image: pihole/pihole:latest
+    container_name: pihole
+    network_mode: host
+
+    environment:
+      TZ: Europe/Berlin
+      WEBPASSWORD: changeme
+
+    volumes:
+      - /mnt/ssd/pihole-logs:/etc/pihole
+      - /mnt/ssd/pihole-dnsmasq:/etc/dnsmasq.d
+      - ./dnsmasq.d:/etc/dnsmasq.d
+
+    restart: unless-stopped
