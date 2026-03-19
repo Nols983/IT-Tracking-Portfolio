@@ -38,7 +38,7 @@ Ziel ist es, die Last zu verteilen und verschiedene Dienste voneinander zu trenn
 
 **Technische Daten:**
 
-* CPU: Intel (je nach Modell)
+* CPU: Intel i3-7100
 * RAM: 8 GB
 * Storage: SSD
 
