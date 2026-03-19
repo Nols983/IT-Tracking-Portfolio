@@ -69,3 +69,5 @@ Dieses Homelab dient als:
 * Dokumentation meiner IT-Kenntnisse
 
 und wird kontinuierlich erweitert.
+
+Hinweis: Sensible Daten wie IP-Adressen, Domains und API-Keys wurden bewusst anonymisiert.
