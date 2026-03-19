@@ -14,7 +14,7 @@ Meine aktuellen Container:
 - Pi-Hole als DNS Blocker
 - Dashy als generelle Übersicht für meine Projekte bzw als eine Art "Short-cut Manager"
 - Netdata Parent in Verbindung mit Childs um die Leistung der Geräte zu überprüfen
-- Uptime Kuma in Verbindung mit ntfy, als Überprüfung der Erreichbarkeit meiner Dienste, sowie die Benachrichtigun falls etwas ausfallen sollte
+- Uptime Kuma in Verbindung mit ntfy, als Überprüfung der Erreichbarkeit meiner Dienste, sowie die Benachrichtigung falls etwas ausfallen sollte
 - Termix als SSH/SFTP Zugriffspunkt
 - Traefik als Reverse Proxy
 - Plex Media als Medienserver für Filme und Serien
