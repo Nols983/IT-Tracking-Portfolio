@@ -4,70 +4,74 @@
 
 Dieses Homelab bildet eine kleine, produktionsähnliche IT-Infrastruktur ab.
 
-Ziel ist es, reale Szenarien aus der Systemadministration und Netzwerktechnik umzusetzen und zu verstehen.
+Ziel ist es, reale Szenarien aus der Systemadministration, Netzwerktechnik und Containerisierung umzusetzen und zu verstehen.
 
 ---
 
-## 🧱 Aufbau
+## 🔰 Neu hier?
 
-Das Homelab besteht aus mehreren Systemen:
+👉 Starte hier:
 
-* Raspberry Pi → Core Services (DNS, Monitoring)
-* Shuttle Server → Gateway + Hauptservices
-* Fujitsu Server → Gameserver
-
----
-
-## ⚙️ Technologien
-
-* Docker & Docker Compose
-* Traefik (Reverse Proxy + TCP Routing)
-* Pi-hole (DNS)
-* Uptime Kuma (Monitoring)
-* Tailscale (Remote Access)
+* 📖 `01-Getting-Started/Vorwort.md`
+* 🧑‍💻 `01-Getting-Started/Einsteiger Guide.md`
 
 ---
 
-## 🧭 Navigation
+## 🧱 Architektur
 
-### 🔰 Einstieg
-
-* `01-Getting-Started/` → Grundlagen & Einführung
-
-### 🧱 Architektur
-
-* `02-Architecture/` → Aufbau & Netzwerkstruktur
-
-### ⚙️ Services
-
-* `03-Services/` → Alle laufenden Dienste
-
-### 🐳 Docker
-
-* `04-Docker/` → Compose Dateien & Setup
-
-### 🌐 Netzwerk
-
-* `05-Network/` → DNS, Traefik, DDNS
-
-### 🔐 Security
-
-* `06-Security/` → Absicherung des Systems
-
-### 🔄 Betrieb
-
-* `07-Operations/` → Monitoring, Backups, Wartung
+* 🖥️ `02-Architecture/Hardware.md`
+* 🌐 `02-Architecture/Network.md`
+* 🧩 `02-Architecture/Architecture.md`
 
 ---
 
-## 🎯 Ziel
+## ⚙️ Services
 
-Dieses Homelab dient als:
+* 📋 `03-Services/Overview.md`
+* 🔧 `03-Services/Infrastructure.md`
+* 📊 `03-Services/Monitoring.md`
+* 🎬 `03-Services/Media.md`
+* 🎮 `03-Services/Gaming.md`
+* 🎤 `03-Services/Communication.md`
 
-* Lernumgebung
-* Testsystem
-* Dokumentation meiner IT-Kenntnisse
+---
 
-und wird kontinuierlich erweitert.
+## 🐳 Docker
 
-Hinweis: Sensible Daten wie IP-Adressen, Domains und API-Keys wurden bewusst anonymisiert.
+* 📂 `04-Docker/`
+
+---
+
+## 🌐 Netzwerk
+
+* 🌍 `05-Network/DNS.md`
+* 🔁 `05-Network/DDNS.md`
+* 🚦 `05-Network/Traefik.md`
+
+---
+
+## 🔐 Security
+
+* 🔒 `06-Security/Security.md`
+
+---
+
+## 🔄 Betrieb
+
+* 📊 `07-Operations/Monitoring.md`
+* 💾 `07-Operations/Backups.md`
+* 🛠️ `07-Operations/Troubleshooting.md`
+
+---
+
+## 🎯 Ziel dieses Projekts
+
+* Aufbau einer stabilen Homelab-Infrastruktur
+* Verständnis realer IT-Systeme
+* Dokumentation meiner Lernfortschritte
+
+---
+
+## ⚠️ Hinweis
+
+Sensible Daten wie IP-Adressen, Domains oder Zugangsdaten wurden bewusst anonymisiert.
